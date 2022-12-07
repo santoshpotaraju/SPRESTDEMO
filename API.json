@@ -1,0 +1,42 @@
+
+
+{
+               "orderCurrency": "USD",
+               "externalId": "123456",
+               "productOrderItem": [
+                              {
+                                             "id": "item01",
+                                             "quantity": 1,
+                                             "action": "add",
+                                             "product": {
+                                                            "@type": "Product",
+                                                            "productSpecification": {
+                                                                           "id": "eb6ff85e2fd3111014865fd92799b64d",
+                                                                           "name": "Broadband",
+                                                                           "@type": "ProductSpecificationRef"
+                                                            },
+                                                            "productCharacteristic": [{
+                                                                           "name": "Speed",
+                                                                           "value": "Fast"
+                                                            }]
+                                             },
+                                             "productOffering": {
+                                                            "id": "50c241522f17111014865fd92799b60a",
+                                                            "name": "Broadband Offering"
+                                             },
+
+
+
+                                            "@type": "ProductOrderItem"
+                              }
+               ],
+               "relatedParty": [
+            {
+                "id": "ffc68911c35420105252716b7d40dd55",
+                "name": "Funco Intl",
+                "@type": "RelatedParty",
+                "@referredType": "Customer"
+            }
+               ],
+               "@type": "ProductOrder"
+}
